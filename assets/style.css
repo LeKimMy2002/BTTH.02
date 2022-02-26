@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 85px;
+}
+.header .header-inner{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 25%;
+}
+.logo img{
+    max-width: 85%;
+    text-align: center;
+}
+.nav{
+    width: 75%;
+}
+.main-menu{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+.main-menu li {
+    list-style-type: none ;
+    text-transform: uppercase;
+    padding:  10px;
+    position:  relative;
+}
+.main-menu li a{
+    text-decoration: none;
+}
+.sub-menu{
+    display: none;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+.sub-menu1{
+    display: none;
+}
+.sub-menu li:hover .sub-menu1{
+    display: block;
+}
+/* banner */
+.banner img{
+    width: 100%;
+    height :auto;
+}
+/* content */
+.content-h1{
+    background-color: red;
+    width: 80%;
+    margin: 30px auto;
+
+
+}
+.content .container{
+
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin: 30px auto ;
+    text-align: left;
+}
+.card{
+    width: 50%;
+    margin: 10px;
+}
+.card video{
+    max-width: 100%;
+    height: auto;
+}
+/* login */
+.form-ads {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000D75 0%, #65379A 100%);
+    padding: 80px 0px;
+}
+.form-ads-item form input, .form-ads-item form select, .form-ads-item form textarea {
+    width: 80%;
+    outline: none;
+}
+.form-ads-item form {
+    margin-top: 20px;
+}
+.form-ads-item form input, .form-ads-item form select {
+    margin: 5px 0px 15px 0px;
+    padding: 10px;
+}
+.form-ads-item form textarea {
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 100px;
+}
+.form-ads-item {
+    padding: 0px 30px;
+}
+.form-ads-item button {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #edb017;
+    border-radius: 5px;
+    color: #0a0a0a;
+    padding: 10px;
+    margin-top: 30px;
+}
+.form-ads-item button:hover {
+    color: #fff;
+    background-color: #008FCA;
+}
+.form-ads-item > span {
+    color: yellow;
+    font-size: 28px;
+    border: 2px solid yellow;
+    padding: 5px 10px;
+}
+
